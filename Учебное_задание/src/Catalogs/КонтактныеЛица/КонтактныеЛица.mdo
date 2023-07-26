@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59714638-5a3b-4de2-bd7d-967c96956e95">
+  <producedTypes>
+    <objectType typeId="8e47add6-5372-491b-8847-95a561e2c57b" valueTypeId="75b6afcd-cbd5-4b3a-9e7c-1ebda8dfdde8"/>
+    <refType typeId="5f7a56a4-2724-4b37-b543-1e5475269ead" valueTypeId="f189b73a-62be-41dc-8cb4-ca976d8cb8ff"/>
+    <selectionType typeId="9092d0fa-5035-45fc-a8f8-9b02442c02db" valueTypeId="1a8ccf6f-8494-4556-9716-b62f79fdf7b6"/>
+    <listType typeId="b8d7788a-6329-4c1b-a3fe-2dcfc314abd0" valueTypeId="e2a2c651-018d-495a-8d76-5cebb3393d55"/>
+    <managerType typeId="1e43fb07-146f-42b7-9969-f0c0a58b05f2" valueTypeId="d8e4c671-3fbf-425d-b380-60d026cce055"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6d55c740-c3f0-435a-a614-07efca2dbbd1">
+    <name>ДеньРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>День рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="49f07592-e5b1-48ab-8917-54e5b1596c11">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <mask>(999) 999-99-99</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

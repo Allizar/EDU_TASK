@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3ad02df-6f40-4b37-b15a-6527e63e42ac">
+  <name>Учебное_задание</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="284729c7-74f3-47f3-a0e3-a71a64a942dc"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="da6ee402-07a6-44e0-b672-90ec5c11138f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a7281299-83ae-48fb-b72e-c7fbfbcd6f90"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4f1763c5-ea36-462e-ad00-d2b3fbdec76d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d16f55b7-3829-473b-aa29-db52ceb3f20c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5cd782af-4e0d-4bb1-bbf5-83458a1d350e"/>
+  <configurationExtensionCompatibilityMode>8.3.8</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <languages uuid="df44f83a-5929-4305-8c79-86c45ad52970">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Упаковки</catalogs>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <dataProcessors>DataProcessor.ПроверкаКонтрагентов</dataProcessors>
+  <informationRegisters>InformationRegister.КонтактныеЛицаКонтрагентов</informationRegisters>
+</mdclass:Configuration>

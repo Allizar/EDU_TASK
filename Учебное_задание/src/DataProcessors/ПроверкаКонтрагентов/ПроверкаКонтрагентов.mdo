@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70992f39-699b-4182-8acc-26bae4a4a9ce">
+  <producedTypes>
+    <objectType typeId="684ae013-2d1f-46b8-9e16-e3456aab9086" valueTypeId="102775a9-2db6-490a-a870-10f32ecd9a82"/>
+    <managerType typeId="e509199a-b8db-4714-a72b-62259046640b" valueTypeId="ca564990-3530-4b45-b4b7-c3dfd7d18dd0"/>
+  </producedTypes>
+  <name>ПроверкаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроверкаКонтрагентов.Form.Форма</defaultForm>
+  <tabularSections uuid="8754ac9a-0bd2-48ba-8f21-19363703f234">
+    <producedTypes>
+      <objectType typeId="57d0b6c4-288f-41c3-a36e-486280612e18" valueTypeId="f669ce99-55f6-443b-9c48-bc1573d94ca5"/>
+      <rowType typeId="503545f8-27b1-4611-a7d4-06bf7212c88c" valueTypeId="f2fe0055-6948-40fe-8b46-0f3a342a6845"/>
+    </producedTypes>
+    <name>СписокКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список контрагентов</value>
+    </synonym>
+    <attributes uuid="cc33b7a7-b887-4d67-ae68-44c3b075e84a">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="8cb1bb89-cdd4-44ac-bb26-0028c434c519">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

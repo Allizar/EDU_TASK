@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="868fa47b-ffde-445c-95a2-a0a130793e4a">
+  <producedTypes>
+    <selectionType typeId="93b6d6f2-1cd9-45e9-a6d3-f9d8b120ce49" valueTypeId="74d2d2ac-a2bc-480d-9513-71ac5a4bf5a6"/>
+    <listType typeId="5792be36-3e8b-4531-b063-e84860e3c2a0" valueTypeId="dfe8f524-4fe7-494c-9994-fe505c22cf1b"/>
+    <managerType typeId="47e6afc4-040a-4a46-b4ee-1dbb409794d4" valueTypeId="f05cf348-6346-4830-819a-2ebf4dc611f8"/>
+    <recordSetType typeId="0a6cc968-abb2-4daa-9c0f-78dea1b7db73" valueTypeId="4cdb4c5d-74c0-4384-834c-6f1e6a3b2aef"/>
+    <recordKeyType typeId="4407d15d-3c94-4ee5-8148-290a83fbab24" valueTypeId="d40413f3-0960-4afa-ab48-b97b8638e228"/>
+    <recordType typeId="877444e5-0817-482e-8d64-59a4950a52f9" valueTypeId="01b3b93e-f063-4ac7-915c-678293b8aabd"/>
+    <recordManagerType typeId="2a0b580b-b3aa-4f08-bd03-d9a737b51253" valueTypeId="e858a6c3-831f-4743-b8f0-e77d23a1b858"/>
+  </producedTypes>
+  <name>КонтактныеЛицаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6816c1f3-5150-46d4-b08c-97c4e5bab04b">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="7577dee4-5fec-4aa7-9539-587cc11f87f8">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="162aad4c-d500-4bba-90ce-ca2dfb1d18a1">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
